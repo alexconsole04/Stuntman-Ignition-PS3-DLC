@@ -3,7 +3,7 @@
 A PlayStation 3 port of Stuntman Ignition's DLC that was only released on Xbox 360. This unlocks the Vehicle Pack cars and ports all of the Director's Cut missions from the original Xbox 360 package file.
 
 # AI DISCLAIMER
-This port was made with the assistance of Claude Opus 5.5, it helped with file conversion due to lack of resources or information available regarding this game, but debugging and tests were all done by me. If you are not comfortable with AI assisted projects, please do not use this project.
+This port was made with the assistance of Claude Opus 5.5, it helped with file conversion due to lack of resources or information available regarding this game, but debugging and tests were all done by me. If you are not comfortable with AI assisted projects, please do not use this project. If this disclaimer disappoints you, I apologize.
 
 # Information
 Stuntman Ignition received DLC where 4 cars seen in the Constructor Arena are now playable and 6 new missions were added in a separate menu on the Career menu for each of the 6 movies, aiming to provide an extra challenge. Likely due to poor sales, only the Xbox 360 version received this DLC and the PlayStation 3 version was excluded. The port aims to bring all the original data, converted for the PS3 version.
