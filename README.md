@@ -1,4 +1,5 @@
-# Stuntman-Ignition-PS3-DLC
+<img width="2304" height="1296" alt="PS3-DLC-11-12-2026" src="https://github.com/user-attachments/assets/f37406a7-066d-4f89-b1cb-eaba88e6ada8" />
+
 A PlayStation 3 port of Stuntman Ignition's DLC that was only released on Xbox 360. This unlocks the Vehicle Pack cars and ports all of the Director's Cut missions from the original Xbox 360 package file.
 
 # AI DISCLAIMER
@@ -11,7 +12,7 @@ Stuntman Ignition received DLC where 4 cars seen in the Constructor Arena are no
 * Despite the PS3 version not receiving the DLC, most of the code was still left on the EBOOT, implying it was supposed to receive the same DLC, but never ended up happening. The game looks for a binary file (DCManifest.txt) where it contains the folder directory to locate a BANK file known as "packageInfo.bnk" that holds all the information for the Director's Cut menu. The file is the same as the 360 version so when brought over to "`dev_hdd0/game/GAMESERIAl/USRDIR/DIRECTORCUT1/`, the game constructs the menu with all the separate entries for each mission.
 
 # What's Included?
-All the files from the Xbox 360 package is included within the .pkg provided here. Most of the files from the base game were brought over since they shared the same models and textures. A few assets had to be converted over including level data and textures.
+All the files from the Xbox 360 package is included within the PKGs provided here. Most of the files from the base game were brought over since they shared the same models and textures. A few assets had to be converted over including level data and textures.
 A modified EBOOT for the game to not only patch DLC vehicle cars to remain unlocked, but to also fix a few bugs with the PS3 version. Some include:
 
 ***The following addresses are for BLUS30073 1.11***
