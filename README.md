@@ -25,8 +25,8 @@ If level data loads too fast, skipping the stunt rundown will result in the leve
 <img width="2560" height="1392" alt="Screenshot 2026-11-11 212138" src="https://github.com/user-attachments/assets/4d4240ee-d91e-439b-9584-4fcb7d555e2a" />
 
 
-# Download Links
-The following links are the PKGS you need to use this mod. The version has been ported to 1.11 already and contains all the data. Please download the PKG that corresponds to your game's serial. If you are using this mod on RPCS3, please also download the imported_patch.yml file included as the PPU hash is not compatible with the patches provided on the wiki. The game requires the Unlock FPS patch to prevent a crash when completing missions due to the replay buffer (5400) overflowing from high performance. (THIS IS A GAME BUG)
+# Downloads
+The downloads are on the Release of this repository. The version has been ported to 1.11 already and contains all the data. Please download the PKG that corresponds to your game's serial. If you are using this mod on RPCS3, please also download the imported_patch.yml file included as the PPU hash is not compatible with the patches provided on the wiki. The game requires the Unlock FPS patch to prevent a crash when completing missions due to the replay buffer (5400) overflowing from high performance. (THIS IS A GAME BUG)
 
 # How to Install?
 If you are playing this on a PS3, this requires CFW or HEN to use.
@@ -34,5 +34,7 @@ If you are playing this on a PS3, this requires CFW or HEN to use.
 * Download the PKG for whatever version your game is (eg: BLUS30073)
 * If on RPCS3, drag and drop the PKG onto the RPCS3 window or `File>Install Packages`
 * If on PS3, import into the HDD or install from a USB device
+* To import the patch for RPCS3, place the file inside the patches folder on your installation or add the patches to an already existing one.
 
 This will overwrite your original EBOOT for the game, either make a back-up or delete the gamedata and re-install the update.
+I will continue to look more into this game for research purposes, enjoy.
