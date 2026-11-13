@@ -12,7 +12,7 @@ Stuntman Ignition received DLC where 4 cars seen in the Constructor Arena are no
 * Despite the PS3 version not receiving the DLC, most of the code was still left on the EBOOT, implying it was supposed to receive the same DLC, but never ended up happening. The game looks for a binary file (DCManifest.txt) where it contains the folder directory to locate a BANK file known as "packageInfo.bnk" that holds all the information for the Director's Cut menu. The file is the same as the 360 version so when brought over to "`dev_hdd0/game/GAMESERIAl/USRDIR/DIRECTORCUT1/`, the game constructs the menu with all the separate entries for each mission.
 
 # What's Included?
-All the files from the Xbox 360 package is included within the PKGs provided here. Most of the files from the base game were brought over since they shared the same models and textures. A few assets had to be converted over including level data and textures.
+All the files from the Xbox 360 package is included converted to run on PS3. Most of the files from the base game were brought over since they shared the same models and textures. A few assets had to be converted over including level data and textures.
 A modified EBOOT for the game to not only patch DLC vehicle cars to remain unlocked, but to also fix a few bugs with the PS3 version. Some include:
 
 ***The following addresses are for BLUS30073 1.11***
@@ -24,17 +24,10 @@ A modified EBOOT for the game to not only patch DLC vehicle cars to remain unloc
 If level data loads too fast, skipping the stunt rundown will result in the level loading without the remaining data streamed for a brief moment. On RPCS3, this requires `Emulate HDD Read Speeds` toggled to prevent this issue. Whether this can happen on PS3 with an SSD is currently unknown.
 <img width="2560" height="1392" alt="Screenshot 2026-11-11 212138" src="https://github.com/user-attachments/assets/4d4240ee-d91e-439b-9584-4fcb7d555e2a" />
 
-
 # Downloads
-The downloads are on the Release of this repository. The version has been ported to 1.11 already and contains all the data. Please download the PKG that corresponds to your game's serial. If you are using this mod on RPCS3, please also download the imported_patch.yml file included as the PPU hash is not compatible with the patches provided on the wiki. The game requires the Unlock FPS patch to prevent a crash when completing missions due to the replay buffer (5400) overflowing from high performance. (THIS IS A GAME BUG)
+The downloads are on the Release of this repository. The version has been ported to 1.11 already and contains all the data. If you are using this mod on RPCS3, please also use the imported_patch.yml file included as the PPU hash is not compatible with the patches provided on the wiki. The game requires the Unlock FPS patch to prevent a crash when completing missions due to the replay buffer (5400) overflowing from high performance. (THIS IS A GAME BUG)
 
-# How to Install?
-If you are playing this on a PS3, this requires CFW or HEN to use.
+# How to Install
+The instructions are located inside the archive uploaded under `Releases`
 
-* Download the PKG for whatever version your game is (eg: BLUS30073)
-* If on RPCS3, drag and drop the PKG onto the RPCS3 window or `File>Install Packages`
-* If on PS3, import into the HDD or install from a USB device
-* To import the patch for RPCS3, place the file inside the patches folder on your installation or add the patches to an already existing one.
-
-This will overwrite your original EBOOT for the game, either make a back-up or delete the gamedata and re-install the update.
 I will continue to look more into this game for research purposes, enjoy.
